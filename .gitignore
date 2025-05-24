@@ -10,6 +10,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+*.log
 
 # environment variables
 .env
@@ -22,4 +23,15 @@ pnpm-debug.log*
 .vscode/
 .idea/
 *.swp
-*.swo 
+*.swo
+
+# Astro
+.astro/
+
+# Testing
+coverage/
+
+# Deployment
+.vercel/
+.netlify/
+.turbo/ 
